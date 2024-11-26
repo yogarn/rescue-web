@@ -1,64 +1,82 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+:root {
+  --primary-color: #8e85e5;
+  --secondary-color: #f1c4f0;
+  font-family: Poppins;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav_container a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile_container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color),
+    var(--secondary-color)
+  );
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav_container {
+  position: fixed;
+  top: 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: var(--primary-color);
+  width: 100%;
+  gap: 6.25rem;
+  height: 4rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.section {
-  scroll-snap-align: start;
-  height: 100vh;
+.profile_content_container {
+  height: 100%;
+  width: 100%;
+  padding-top: 6rem;
   display: flex;
-  align-items: center; /* Keep vertical centering */
-  justify-content: flex-start; /* Align items to the start (left) */
-  border: 1px solid #333;
+  align-self: stretch;
 }
 
-#profile-section {
-  background-image: url('/public/bg.jpeg'); /* Replace with your image path */
-  background-size: cover; /* Cover the entire section without stretching */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  display: flex; /* Ensure flexbox layout */
-  align-items: center; /* Center items vertically */
-  padding: 20px; /* Optional padding */
-  position: relative; /* Ensure the position is relative for the blurBlock */
+.logo_container {
+  margin-left: 2rem;
+  display: flex;
+  height: 22rem;
+  width: 24rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-#profile-section img.avatar {
-  max-width: 100%; /* Ensure the image is responsive */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 20px; /* Space between the logo and text */
+.logo{
+  width: 18rem;
+  height: 19rem;
+}
+
+.profile_text_container h1,
+.profile_text_container h2,
+.profile_text_container p {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+
+.profile_text_container{
+  border-radius: 20px;
+  padding: 2rem;
+  height: 18rem;
+  background-color: rgba(0, 0, 0, 0.13);
+  margin-left: 2rem;
+  color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
