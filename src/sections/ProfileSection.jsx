@@ -1,7 +1,9 @@
 import React from "react";
-import { Grid, Typography, Button } from "@mui/material";
+import { Typography, Button } from "@mui/material";
 import { ReactComponent as Logo } from '../rescue_logo.svg';
 import ResponsiveAppBar from "./ResponsiveAppBar";
+
+import Grid from '@mui/material/Grid2';
 
 function ProfileSection() {
   return (
