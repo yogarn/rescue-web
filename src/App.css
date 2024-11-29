@@ -5,7 +5,7 @@
   font-family: Poppins;
 }
 
-.nav_text {
+.nav_container a {
   color: #fff;
   font-family: Poppins;
   font-size: 4vh;
@@ -46,7 +46,9 @@
 .profile_content_container {
   height: 100%;
   width: 100%;
-  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo_container {
@@ -60,8 +62,8 @@
 }
 
 .logo{
-  width: 52vh;
-  height: 52vh;
+  width: 67%;
+  height: 67%;
 }
 
 .profile_text_container h1,
@@ -73,27 +75,22 @@
 }
 
 .profile_text_container h1{
-  font-weight: 600;
-  font-style: normal;
-  font-size: 8vh;
+  font-size: 3rem;
 }
 
 .profile_text_container h2{
-  font-weight: 400;
-  font-style: normal;
-  font-size: 4vh;
+  font-size: 1.5rem;
 }
 
 .profile_text_container p{
-  font-weight: 200;
-  font-style: normal;
-  font-size: 3vh;
+  font-size: 1rem;
 }
 
 .profile_text_container{
   border-radius: 2vh;
   padding: 8vh;
   background-color: rgba(0, 0, 0, 0.13);
+  margin-left: 4vh;
   color: white;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
