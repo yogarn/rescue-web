@@ -18,7 +18,7 @@ function MockupSection() {
               <img
                 src="/mock_monitoring.png"
                 alt="Monitoring"
-                className="mockup_image"
+                className="mockup_image2"
               />
             </div>
           </Grid>
