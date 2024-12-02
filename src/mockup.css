@@ -6,27 +6,32 @@
       var(--primary-color),
       var(--secondary-color)
     );
-    padding-top: 15vh;
-  }
-
-  .mockup_image_wrapper {
-    height: auto;
-    display: block; 
-    position: relative;
-    overflow: visible;
+    padding-top: 5vh;
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
   }
   
+  .mockup_image_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
   .mockup_image {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: auto;
     max-height: 80vh;
+    max-width: 40vh;
     border-radius: 12px;
   }
 
   .mockup_text{
-    padding: 0 0 0 27rem;
+    /* padding-top: 100px; */
+    padding-left: 5vw;
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   
