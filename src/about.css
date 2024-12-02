@@ -6,4 +6,31 @@
     var(--secondary-color),
     var(--primary-color)
   );
+  padding-top: 5vh;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.about_content {
+  width: 90%;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about_title {
+  font-size: 3rem;
+  margin-bottom: 1rem !important;
+}
+
+.about_text {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.8;
 }
