@@ -7,15 +7,17 @@
       var(--secondary-color)
     );
     padding-top: 5vh;
-    display: flex; /* Enable flexbox */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
   }
   
   .mockup_image_wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
   .mockup_image {
@@ -26,12 +28,13 @@
   }
 
   .mockup_text{
-    /* padding-top: 100px; */
+    padding-top: 20px;
     padding-left: 5vw;
-    max-width: 40vw;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
   }
 
   

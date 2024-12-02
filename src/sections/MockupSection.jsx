@@ -7,7 +7,7 @@ function MockupSection() {
   return (
     <div className="mockup_container" id="mockup_section">
       <Container>
-        <Grid container spacing={2} wrap="nowrap" alignItems={"center"}>
+        <Grid container spacing={2} alignItems={"center"}>
           <Grid item xs={12} md={6}>
             <div className="mockup_image_wrapper">
               <img
