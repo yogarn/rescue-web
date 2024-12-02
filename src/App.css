@@ -23,12 +23,17 @@
 
 .profile_container {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(
     to bottom,
     var(--primary-color),
     var(--secondary-color)
   );
+  padding-top: 5vh;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center;
 }
 
 .nav_container {
