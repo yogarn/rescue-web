@@ -6,11 +6,11 @@
       var(--primary-color),
       var(--secondary-color)
     );
+    padding-top: 15vh;
   }
 
   .mockup_image_wrapper {
     height: auto;
-    background-color: black;
     display: block; 
     position: relative;
     overflow: visible;
@@ -20,15 +20,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: auto;
-    max-height: 80vh;
-    border-radius: 12px;
-  }
-  
-  .mockup_image2 {
-    position: absolute;
-    top: 0;
-    left: 9rem;
     width: auto;
     max-height: 80vh;
     border-radius: 12px;

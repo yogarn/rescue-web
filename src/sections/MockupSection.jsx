@@ -11,14 +11,9 @@ function MockupSection() {
           <Grid item xs={12} md={6}>
             <div className="mockup_image_wrapper">
               <img
-                src="/mock_dashboard.png"
-                alt="Dashboard"
+                src="/mockup_merged.png"
+                alt="Mockup"
                 className="mockup_image"
-              />
-              <img
-                src="/mock_monitoring.png"
-                alt="Monitoring"
-                className="mockup_image2"
               />
             </div>
           </Grid>
