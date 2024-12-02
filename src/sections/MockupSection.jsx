@@ -20,10 +20,10 @@ function MockupSection() {
           <Grid item xs={12} md={6}>
             <div className="mockup_text">
               <Typography variant="h4" color="textPrimary">
-                Feature
+                Fitur Aplikasi
               </Typography>
               <Typography variant="h6" color="textSecondary">
-                Kami menyediakan beragam fitur, mulai dari dashboard yang menyediakan summary hingga fitur monitoring secara real-time.
+                Terdapat beragam fitur yang dapat membantu pasien, dokter, ataupun pengguna umum dalam memantau kesehatan. Kami menyediakan fitur reminder dan todo list untuk mengingatkan pasien dalam menjalani pengobatan, fitur chat untuk konsultasi dengan dokter, dan fitur dashboard untuk melihat perkembangan kesehatan. Terdapat juga fitur monitoring yang dapat diintegrasikan dengan sensor kesehatan. Fitur SOS juga disediakan untuk meminta bantuan cepat ketika kondisi darurat.
               </Typography>
               <Button
                 variant="contained"
