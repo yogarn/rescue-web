@@ -1,8 +1,8 @@
 import React from 'react';
 import { AppBar, Box, Button, Container, IconButton, Menu, MenuItem, Typography, Avatar, Tooltip, Toolbar } from '@mui/material';
 
-const pages = ['Profile', 'About', 'Mockup', 'Prototype'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['Profile', 'Mockup', 'Prototype', 'About'];
+// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -124,7 +124,7 @@ function ResponsiveAppBar() {
               </Button>
             ))}
           </Box>
-          <Box sx={{ flexGrow: 0 }}>
+          {/* <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -152,7 +152,7 @@ function ResponsiveAppBar() {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>

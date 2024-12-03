@@ -18,9 +18,9 @@ function App() {
     <ThemeProvider theme={theme}> {/* Wrap the entire app in ThemeProvider */}
       <div className="App">
         <ProfileSection />
-        <AboutSection />
         <MockupSection />
         <PrototypeSection />
+        <AboutSection />
       </div>
     </ThemeProvider>
   );
