@@ -30,14 +30,7 @@ function PrototypeSection() {
               <Typography variant="h6" color="textSecondary">
                 Coba prototype Figma kami sekarang dan lihat bagaimana kami bisa membantu Anda dalam menjaga kesehatan Anda.
               </Typography>
-              <Button
-                variant="contained"
-                color="primary"
-                size="large"
-                sx={{ marginTop: 2 }}
-              >
-                Get started
-              </Button>
+              <button class="try_now_button">Coba Sekarang</button>
             </div>
           </Grid>
         </Grid>

@@ -1,6 +1,6 @@
 import "../mockup.css";
 import React from "react";
-import { Container, Typography, Button } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 
 function MockupSection() {
@@ -22,17 +22,17 @@ function MockupSection() {
               <Typography variant="h4" color="textPrimary">
                 Fitur Aplikasi
               </Typography>
-              <Typography variant="h6" color="textSecondary">
-                Terdapat beragam fitur yang dapat membantu pasien, dokter, ataupun pengguna umum dalam memantau kesehatan. Kami menyediakan fitur reminder dan todo list untuk mengingatkan pasien dalam menjalani pengobatan, fitur chat untuk konsultasi dengan dokter, dan fitur dashboard untuk melihat perkembangan kesehatan. Terdapat juga fitur monitoring yang dapat diintegrasikan dengan sensor kesehatan. Fitur SOS juga disediakan untuk meminta bantuan cepat ketika kondisi darurat.
+              <Typography variant="p" color="textSecondary">
+                Terdapat beragam fitur yang dapat membantu pasien, dokter,
+                ataupun pengguna umum dalam memantau kesehatan. Kami menyediakan
+                fitur reminder dan todo list untuk mengingatkan pasien dalam
+                menjalani pengobatan, fitur chat untuk konsultasi dengan dokter,
+                dan fitur dashboard untuk melihat perkembangan kesehatan.
+                Terdapat juga fitur monitoring yang dapat diintegrasikan dengan
+                sensor kesehatan. Fitur SOS juga disediakan untuk meminta
+                bantuan cepat ketika kondisi darurat.
               </Typography>
-              <Button
-                variant="contained"
-                color="primary"
-                size="large"
-                sx={{ marginTop: 2 }}
-              >
-                Get started
-              </Button>
+              <button class="get_started_button">Get Started</button>
             </div>
           </Grid>
         </Grid>
