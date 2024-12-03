@@ -27,8 +27,7 @@ function ProfileSection() {
           <div className="profile_text_container">
             <Typography variant="h1">RESCUE</Typography>
             <Typography variant="h2">
-              Real-time Evaluation for Safety, Care, and Utilization of
-              <br /> Emergency services
+              Real-time Evaluation for Safety, Care, and Utilization of Emergency services
             </Typography>
             <Typography variant="body1">An app for monitoring, emergency, and consultation</Typography>
           </div>
