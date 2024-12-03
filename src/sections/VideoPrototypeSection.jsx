@@ -1,24 +1,23 @@
-import "../prototype.css";
+import "../video_prototype.css";
 import React from "react";
 import { Container, Typography, Button } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 
-function PrototypeSection() {
+function VideoPrototypeSection() {
   return (
     <div className="prototype_container" id="prototype_section">
       <Container>
-        <Grid
-          container
-          spacing={2}
-          alignItems="center"
-          direction={{ xs: "column", md: "row" }}
-        >
+        <Grid container spacing={2} alignItems={"center"}>
           <Grid item xs={12} md={6}>
             <div className="prototype_video">
               <iframe
-                width="500"
-                height="600"
-                src="https://embed.figma.com/proto/rPAhjUjFZsGfMd8MqwNUhE/Rescue?node-id=367-1251&node-type=canvas&scaling=scale-down-height&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=367%3A1251&share=1&embed-host=share&%26hide-ui%3D1 "
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/CKoZQM5-F6A?si=6ZgJ-lU46TGBzVrd"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
             </div>
@@ -43,4 +42,4 @@ function PrototypeSection() {
   );
 }
 
-export default PrototypeSection;
+export default VideoPrototypeSection;

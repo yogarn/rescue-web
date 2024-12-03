@@ -1,0 +1,64 @@
+.prototype_container {
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    padding-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+  }
+  
+  .prototype_video {
+    border: 2px solid #d16ba5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    max-width: 560px;
+  }
+  
+  .prototype_text {
+    padding-top: 20px;
+    padding-left: 5vw;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    font-family: 'Poppins';
+  }
+  
+  .prototype_text h4 {
+    color: #6a11cb;
+    margin-bottom: 1rem;
+  }
+  
+  .prototype_text p {
+    color: #333333;
+  }
+  
+  .try_now_button {
+    background: #6a11cb;
+    color: #ffffff;
+    font-family: 'Poppins';
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+  }
+  
+  .try_now_button:hover {
+    background: #d16ba5;
+  }
+  
+  .try_now_button:active {
+    background: #a75684;
+    transform: scale(0.95);
+  }
+  
