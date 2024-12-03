@@ -71,8 +71,14 @@ function FooterSection() {
               </li>
 
               <li>
-                <a href="https://drive.google.com/drive/folders/1kHrQzajoVHnqkJEkjIoenfX43cw33bs5?usp=drive_link">
+                <a href="https://drive.google.com/drive/folders/1c_lFwSy7iBZH2_XI_MS6rwYsXJswZrTL?usp=drive_link">
                   Capstone 4
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/drive/folders/1kHrQzajoVHnqkJEkjIoenfX43cw33bs5?usp=drive_link">
+                  Final Report
                 </a>
               </li>
             </ul>
