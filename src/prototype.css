@@ -27,6 +27,7 @@
   flex-direction: column;
   justify-content: center;
   flex: 1;
+  font-family: 'Poppins';
 }
 
 .prototype_text h4 {

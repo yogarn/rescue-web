@@ -27,7 +27,7 @@ function PrototypeSection() {
               <Typography variant="h4" color="textPrimary">
                 Prototype
               </Typography>
-              <Typography variant="h6" color="textSecondary">
+              <Typography variant="p" color="textSecondary">
                 Coba prototype Figma kami sekarang dan lihat bagaimana kami bisa membantu Anda dalam menjaga kesehatan Anda.
               </Typography>
               <button class="try_now_button">Coba Sekarang</button>
