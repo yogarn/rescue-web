@@ -3,9 +3,9 @@ import React from "react";
 import { Container, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 
-function MockupSection() {
+function FeatureSection() {
   return (
-    <div className="mockup_container" id="mockup_section" style={{background: "#f5f5f5"}}>
+    <div className="mockup_container" id="feature_section" style={{background: "#f5f5f5"}}>
       <Container>
         <Grid container spacing={2} alignItems={"center"}>
           <Grid item xs={12} md={6}>
@@ -43,4 +43,4 @@ function MockupSection() {
   );
 }
 
-export default MockupSection;
+export default FeatureSection;

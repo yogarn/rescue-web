@@ -13,7 +13,7 @@ import {
   Toolbar,
 } from "@mui/material";
 
-const pages = ["Profile", "Mockup", "Prototype", "About"];
+const pages = ["Profile", "Feature", "Prototype", "About"];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
