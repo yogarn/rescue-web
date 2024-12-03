@@ -4,6 +4,7 @@ import MockupSection from './sections/MockupSection';
 import ProfileSection from './sections/ProfileSection';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import PrototypeSection from './sections/PrototypeSection';
+import FooterSection from './sections/FooterSection';
 
 const theme = createTheme({
   palette: {
@@ -21,6 +22,7 @@ function App() {
         <MockupSection />
         <PrototypeSection />
         <AboutSection />
+        <FooterSection />
       </div>
     </ThemeProvider>
   );
