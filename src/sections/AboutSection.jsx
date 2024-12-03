@@ -61,11 +61,11 @@ function AboutSection() {
             <Typography className="photo_name">Yoga Raditya N.</Typography>
           </div>
           <div className="photo_item">
-            <img src="/toni.jpg" alt="Team Member 3" className="team_photo" />
+            <img src="/nafi.jpg" alt="Team Member 3" className="team_photo" />
             <Typography className="photo_name">Ahmad Nafi M.</Typography>
           </div>
           <div className="photo_item">
-            <img src="/toni.jpg" alt="Team Member 4" className="team_photo" />
+            <img src="/aufar.jpg" alt="Team Member 4" className="team_photo" />
             <Typography className="photo_name">M. Zhafir Aufar</Typography>
           </div>
         </div>
