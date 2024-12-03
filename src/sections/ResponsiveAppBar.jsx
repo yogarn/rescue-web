@@ -1,7 +1,19 @@
-import React from 'react';
-import { AppBar, Box, Button, Container, IconButton, Menu, MenuItem, Typography, Avatar, Tooltip, Toolbar } from '@mui/material';
+import React from "react";
+import {
+  AppBar,
+  Box,
+  Button,
+  Container,
+  IconButton,
+  Menu,
+  MenuItem,
+  Typography,
+  Avatar,
+  Tooltip,
+  Toolbar,
+} from "@mui/material";
 
-const pages = ['Profile', 'Mockup', 'Prototype', 'About'];
+const pages = ["Profile", "Mockup", "Prototype", "About"];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -11,7 +23,7 @@ function ResponsiveAppBar() {
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  
+
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
   };
@@ -26,14 +38,16 @@ function ResponsiveAppBar() {
 
   // Fungsi untuk menggulir ke bagian tertentu
   const handleScrollToSection = (section) => {
-    const targetSection = document.getElementById(`${section.toLowerCase()}_section`);
+    const targetSection = document.getElementById(
+      `${section.toLowerCase()}_section`
+    );
     if (targetSection) {
-      targetSection.scrollIntoView({ behavior: 'smooth' });
+      targetSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   return (
-    <AppBar position="fixed" sx={{backgroundColor: 'rgba(0, 0, 0, 0.5)'}}>
+    <AppBar position="fixed" sx={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -43,18 +57,22 @@ function ResponsiveAppBar() {
             href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              display: { xs: "none", md: "flex" },
+              fontFamily: "monospace",
               fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
+              letterSpacing: ".3rem",
+              color: "inherit",
+              textDecoration: "none",
             }}
           >
-            LOGO
+            <img
+              src="logo.png"
+              alt="Logo"
+              style={{ height: "40px", objectFit: "contain" }}
+            />
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -69,31 +87,40 @@ function ResponsiveAppBar() {
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
+                vertical: "bottom",
+                horizontal: "left",
               }}
               keepMounted
               transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
+                vertical: "top",
+                horizontal: "left",
               }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
-              sx={{ display: { xs: 'block', md: 'none' } }}
+              sx={{ display: { xs: "block", md: "none" } }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} 
-                onClick={() => { handleScrollToSection(page); handleCloseNavMenu(); }}>
-                  <Typography sx={{ 
-                    textAlign: 'center',
-                    fontFamily: 'poppins',
-                    fontWeight: 400
-                     }}>{page}</Typography>
+                <MenuItem
+                  key={page}
+                  onClick={() => {
+                    handleScrollToSection(page);
+                    handleCloseNavMenu();
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      textAlign: "center",
+                      fontFamily: "poppins",
+                      fontWeight: 400,
+                    }}
+                  >
+                    {page}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          
+
           <Typography
             variant="h5"
             noWrap
@@ -101,24 +128,31 @@ function ResponsiveAppBar() {
             href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
-              display: { xs: 'flex', md: 'none' },
+              display: { xs: "flex", md: "none" },
               flexGrow: 1,
-              fontFamily: 'monospace',
+              fontFamily: "monospace",
               fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
+              letterSpacing: ".3rem",
+              color: "inherit",
+              textDecoration: "none",
             }}
           >
-            LOGO
+            <img
+              src="logo.png"
+              alt="Logo"
+              style={{ height: "40px", objectFit: "contain" }}
+            />
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={() => { handleScrollToSection(page); handleCloseNavMenu(); }}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                onClick={() => {
+                  handleScrollToSection(page);
+                  handleCloseNavMenu();
+                }}
+                sx={{ my: 2, color: "white", display: "block" }}
               >
                 {page}
               </Button>
