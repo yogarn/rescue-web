@@ -7,12 +7,7 @@ function PrototypeSection() {
   return (
     <div className="prototype_container" id="prototype_section">
       <Container>
-        <Grid
-          container
-          spacing={2}
-          alignItems="center"
-          direction={{ xs: "column", md: "row" }}
-        >
+        <Grid container spacing={2} alignItems="center">
           <Grid item xs={12} md={6}>
             <div className="prototype_video">
               <iframe
