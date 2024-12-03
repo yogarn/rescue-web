@@ -5,11 +5,11 @@ import Grid from "@mui/material/Grid2";
 
 function VideoPrototypeSection() {
   return (
-    <div className="prototype_container" id="prototype_section">
+    <div className="video_prototype_container" id="video_prototype_section">
       <Container>
         <Grid container spacing={2} alignItems={"center"}>
           <Grid item xs={12} md={6}>
-            <div className="prototype_video">
+            <div className="video_prototype_video">
               <iframe
                 width="560"
                 height="315"
@@ -23,15 +23,15 @@ function VideoPrototypeSection() {
             </div>
           </Grid>
           <Grid item xs={12} md={6}>
-            <div className="prototype_text">
+            <div className="video_prototype_text">
               <Typography variant="h4" color="textPrimary">
-                Prototype
+                Video Prototype
               </Typography>
               <Typography variant="p" color="textSecondary">
                 Coba prototype Figma kami sekarang dan lihat bagaimana kami bisa
                 membantu Anda dalam menjaga kesehatan Anda.
               </Typography>
-              <a href="http://clips.id/Prototype_Figma">
+              <a href="http://clips.id/video_prototype_Figma">
                 <button class="try_now_button">Coba Sekarang</button>
               </a>
             </div>

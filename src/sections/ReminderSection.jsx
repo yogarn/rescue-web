@@ -3,15 +3,15 @@ import React from "react";
 import { Container, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 
-function MockupSection() {
+function ReminderSection() {
   return (
-    <div className="mockup_container" id="mockup_section" style={{background: "#f5f5f5"}}>
+    <div className="mockup_container" id="mockup_section" style={{ background: "#f5f5f5" }}>
       <Container>
         <Grid container spacing={2} alignItems={"center"}>
           <Grid item xs={12} md={6}>
             <div className="mockup_image_wrapper">
               <img
-                src="/dashboard_merged.png"
+                src="/reminder_merged.png"
                 alt="Mockup"
                 className="mockup_image"
               />
@@ -20,7 +20,7 @@ function MockupSection() {
           <Grid item xs={12} md={6}>
             <div className="mockup_text">
               <Typography variant="h4" color="textPrimary">
-                Fitur Utama Aplikasi
+                Fitur Konsultasi & Reminder
               </Typography>
               <Typography variant="p" color="textSecondary">
                 Terdapat beragam fitur yang dapat membantu pasien, dokter,
@@ -43,4 +43,4 @@ function MockupSection() {
   );
 }
 
-export default MockupSection;
+export default ReminderSection;
