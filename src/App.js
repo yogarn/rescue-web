@@ -8,6 +8,7 @@ import FooterSection from './sections/FooterSection';
 import MonitoringSection from './sections/MonitoringSection';
 import ReminderSection from './sections/ReminderSection';
 import FeatureSection from './sections/FeatureSection';
+import PresentationSection from './sections/PresentationSection';
 
 const theme = createTheme({
   palette: {
@@ -27,6 +28,7 @@ function App() {
         <ReminderSection />
         <VideoPrototypeSection />
         <PrototypeSection />
+        <PresentationSection />
         <AboutSection />
         <FooterSection />
       </div>

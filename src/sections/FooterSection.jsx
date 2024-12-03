@@ -69,6 +69,12 @@ function FooterSection() {
                   Capstone 3
                 </a>
               </li>
+
+              <li>
+                <a href="https://drive.google.com/drive/folders/1kHrQzajoVHnqkJEkjIoenfX43cw33bs5?usp=drive_link">
+                  Capstone 4
+                </a>
+              </li>
             </ul>
           </Grid>
 
