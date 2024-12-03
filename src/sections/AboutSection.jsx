@@ -25,6 +25,31 @@ function AboutSection() {
           juga mendukung pemulihan pasien, mengurangi risiko komplikasi, dan
           membantu meningkatkan kualitas perawatan kesehatan secara keseluruhan.
         </Typography>
+        <br />
+        <Typography className="about_text">
+          Kami adalah Tim Chayam, sebuah tim yang terdiri dari empat mahasiswa
+          Teknik Informatika angkatan 2023 yang berkomitmen untuk menciptakan
+          solusi inovatif dalam pemantauan kesehatan dan layanan darurat.
+          Anggota tim kami adalah Fatoni, Yoga, Nafi, dan Aufar, yang memiliki
+          berbagai keahlian dan latar belakang yang mendukung pengembangan
+          aplikasi RESCUE. Motivasi kami untuk membuat aplikasi RESCUE berawal
+          dari kekhawatiran akan banyaknya kasus jatuh pada pasien, yang sering
+          kali terlambat dalam mendapatkan penanganan medis yang tepat dan
+          berakibat fatal. Melalui fitur Early Warning System, kami ingin
+          menciptakan sistem yang dapat memberikan peringatan dini saat
+          seseorang jatuh, agar penanganan medis bisa segera dilakukan. Selain
+          itu, kami menyadari bahwa sering kali konsultasi dengan dokter
+          memerlukan perjalanan ke rumah sakit, yang tidak selalu memungkinkan,
+          terutama dalam kondisi darurat. Oleh karena itu, kami merancang
+          aplikasi yang memungkinkan monitoring kesehatan real-time untuk
+          mempermudah pasien dalam memantau kondisi mereka tanpa harus pergi ke
+          rumah sakit. Fitur Reminder juga kami ciptakan agar pengguna tidak
+          lupa melakukan kegiatan kesehatan penting, seperti mengonsumsi obat
+          atau mengganti perban, yang merupakan bagian penting dalam perawatan
+          sehari-hari. Dengan aplikasi RESCUE, kami berharap dapat memberikan
+          solusi yang lebih mudah diakses dan lebih efisien dalam menjaga
+          kesehatan dan keselamatan pasien rawat jalan.
+        </Typography>
 
         <div className="team_photos">
           <div className="photo_item">
