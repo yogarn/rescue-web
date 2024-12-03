@@ -21,6 +21,25 @@ function AboutSection() {
           untuk evaluasi akurat. Teknologi ini meningkatkan keselamatan pasien,
           mendukung SDG 3, dan mengurangi biaya perawatan.
         </Typography>
+
+        <div className="team_photos">
+          <div className="photo_item">
+            <img src="/toni.jpg" alt="Team Member 1" className="team_photo" />
+            <Typography className="photo_name">Fatoni Murfid S.</Typography>
+          </div>
+          <div className="photo_item">
+            <img src="/yoga.jpg" alt="Team Member 2" className="team_photo" />
+            <Typography className="photo_name">Yoga Raditya N.</Typography>
+          </div>
+          <div className="photo_item">
+            <img src="/toni.jpg" alt="Team Member 3" className="team_photo" />
+            <Typography className="photo_name">Ahmad Nafi M.</Typography>
+          </div>
+          <div className="photo_item">
+            <img src="/toni.jpg" alt="Team Member 4" className="team_photo" />
+            <Typography className="photo_name">M. Zhafir Aufar</Typography>
+          </div>
+        </div>
       </div>
     </div>
   );
