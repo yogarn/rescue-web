@@ -32,7 +32,9 @@ function MockupSection() {
                 sensor kesehatan. Fitur SOS juga disediakan untuk meminta
                 bantuan cepat ketika kondisi darurat.
               </Typography>
-              <button class="get_started_button">Get Started</button>
+              <a href="#prototype_section">
+              <button class="get_started_button">Pelajari Lebih Lanjut</button>
+              </a>
             </div>
           </Grid>
         </Grid>

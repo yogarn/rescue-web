@@ -28,9 +28,12 @@ function PrototypeSection() {
                 Prototype
               </Typography>
               <Typography variant="p" color="textSecondary">
-                Coba prototype Figma kami sekarang dan lihat bagaimana kami bisa membantu Anda dalam menjaga kesehatan Anda.
+                Coba prototype Figma kami sekarang dan lihat bagaimana kami bisa
+                membantu Anda dalam menjaga kesehatan Anda.
               </Typography>
-              <button class="try_now_button">Coba Sekarang</button>
+              <a href="http://clips.id/Prototype_Figma">
+                <button class="try_now_button">Coba Sekarang</button>
+              </a>
             </div>
           </Grid>
         </Grid>
