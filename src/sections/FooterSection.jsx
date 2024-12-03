@@ -32,16 +32,10 @@ function FooterSection() {
             </Typography>
             <ul className="footer_links">
               <li>
-                <a href="#profile_section">Profile</a>
+                <a href="http://clips.id/Prototype_Figma">Figma Prototype</a>
               </li>
               <li>
-                <a href="#mockup_section">Mockup</a>
-              </li>
-              <li>
-                <a href="#prototype_section">Prototype</a>
-              </li>
-              <li>
-                <a href="#about_section">About</a>
+                <a href="http://clips.id/Testing_Aplikasi_Rescue">Maze</a>
               </li>
             </ul>
           </Grid>
