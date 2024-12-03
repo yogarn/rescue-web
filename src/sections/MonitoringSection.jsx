@@ -5,7 +5,11 @@ import Grid from "@mui/material/Grid2";
 
 function MonitoringSection() {
   return (
-    <div className="mockup_container" id="mockup_section" style={{background: "#ffffff"}}>
+    <div
+      className="mockup_container"
+      id="mockup_section"
+      style={{ background: "#ffffff" }}
+    >
       <Container>
         <Grid container spacing={2} alignItems={"center"}>
           <Grid item xs={12} md={6}>
@@ -23,17 +27,18 @@ function MonitoringSection() {
                 Fitur SOS & Monitoring
               </Typography>
               <Typography variant="p" color="textSecondary">
-                Terdapat beragam fitur yang dapat membantu pasien, dokter,
-                ataupun pengguna umum dalam memantau kesehatan. Kami menyediakan
-                fitur reminder dan todo list untuk mengingatkan pasien dalam
-                menjalani pengobatan, fitur chat untuk konsultasi dengan dokter,
-                dan fitur dashboard untuk melihat perkembangan kesehatan.
-                Terdapat juga fitur monitoring yang dapat diintegrasikan dengan
-                sensor kesehatan. Fitur SOS juga disediakan untuk meminta
-                bantuan cepat ketika kondisi darurat.
+                Fitur SOS berfungsi untuk mengirimkan pesan darurat kepada orang
+                terdekat dan rumah sakit terdekat. Apabila aplikasi mendeteksi
+                potensi berbahaya yang mungkin dialami oleh pengguna, aplikasi
+                akan langsung mengirimkan pesan SOS tersebut. Terdapat juga
+                fitur monitoring yang berfungsi untuk memantau kondisi kesehatan
+                pengguna dengan sensor kesehatan yang terintegrasi secara
+                real-time.
               </Typography>
               <a href="#prototype_section">
-              <button class="get_started_button">Pelajari Lebih Lanjut</button>
+                <button class="get_started_button">
+                  Pelajari Lebih Lanjut
+                </button>
               </a>
             </div>
           </Grid>

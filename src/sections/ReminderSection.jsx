@@ -5,7 +5,11 @@ import Grid from "@mui/material/Grid2";
 
 function ReminderSection() {
   return (
-    <div className="mockup_container" id="mockup_section" style={{ background: "#f5f5f5" }}>
+    <div
+      className="mockup_container"
+      id="mockup_section"
+      style={{ background: "#f5f5f5" }}
+    >
       <Container>
         <Grid container spacing={2} alignItems={"center"}>
           <Grid item xs={12} md={6}>
@@ -23,17 +27,16 @@ function ReminderSection() {
                 Fitur Konsultasi & Reminder
               </Typography>
               <Typography variant="p" color="textSecondary">
-                Terdapat beragam fitur yang dapat membantu pasien, dokter,
-                ataupun pengguna umum dalam memantau kesehatan. Kami menyediakan
-                fitur reminder dan todo list untuk mengingatkan pasien dalam
-                menjalani pengobatan, fitur chat untuk konsultasi dengan dokter,
-                dan fitur dashboard untuk melihat perkembangan kesehatan.
-                Terdapat juga fitur monitoring yang dapat diintegrasikan dengan
-                sensor kesehatan. Fitur SOS juga disediakan untuk meminta
-                bantuan cepat ketika kondisi darurat.
+                Fitur konsultasi berfungsi untuk menghubungkan pengguna dengan
+                dokter-dokter yang telah bekerja sama dengan aplikasi kami. Hal
+                tersebut bertujuan untuk mempermudah akses kesehatan bagi setiap
+                orang. Terdapat juga fitur reminder berfungsi untuk mengingatkan
+                pengguna untuk minum obat dan menjaga pola makan yang sehat.
               </Typography>
               <a href="#prototype_section">
-              <button class="get_started_button">Pelajari Lebih Lanjut</button>
+                <button class="get_started_button">
+                  Pelajari Lebih Lanjut
+                </button>
               </a>
             </div>
           </Grid>
