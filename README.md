@@ -1,5 +1,6 @@
 # Rescue
-> Merupakan website promosi yang dibuat sebagai pemenuhan tugas akhir Interaksi Manusia dan Komputer (2024) Teknik Informatika Fakultas Ilmu Komputer Universitas Brawijaya.
+> [!NOTE]
+> Merupakan website promosi (*landing page*) yang dibuat sebagai pemenuhan tugas akhir Interaksi Manusia dan Komputer (2024) Teknik Informatika Fakultas Ilmu Komputer Universitas Brawijaya.
 
 Rescue sendiri merupakan rancangan aplikasi mobile yang ditujukan untuk memantau kesehatan pengguna melalui _wearable sensors_. Harapannya, aplikasi tersebut dapat memberikan data kesehatan pengguna secara historis dan dapat mengirimkan peringatan darurat (SOS) ke keluarga terdekat ataupun ke pihak terkait.
 
